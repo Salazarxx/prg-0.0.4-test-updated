@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Entradas y Salidas - Mantenimiento</title>
+    <link rel="stylesheet" href="/static/css/styles2.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Registro de Entradas y Salidas - Mantenimiento</h1>
+    </header>
+
+    <div class="container">
+        <h2 class="menu-title">Menu</h2>
+        
+        <div class="menu-grid">
+            <div class="menu-item" onclick="capturarEntrada()">
+                <div class="menu-icon">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                    </svg>
+                </div>
+                <div class="menu-text">Capturar Entrada</div>
+            </div>
+
+            <div class="menu-item" onclick="capturarSalidas()">
+                <div class="menu-icon">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M9 16h6v-6h4l-7-7-7 7h4v6zm-4 2h14v2H5v-2z"/>
+                    </svg>
+                </div>
+                <div class="menu-text">Capturar salidas</div>
+            </div>
+
+            <div class="menu-item" onclick="capturarPrioridades()">
+                <div class="menu-icon">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/>
+                    </svg>
+                </div>
+                <div class="menu-text">Capturar Prioridades</div>
+            </div>
+
+            <div class="menu-item" onclick="consultarPendientes()">
+                <div class="menu-icon">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                </div>
+                <div class="menu-text">Consultar listado de piezas pendientes</div>
+            </div>
+
+            <div class="menu-item" onclick="consultarTerminadas()">
+                <div class="menu-icon">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                </div>
+                <div class="menu-text">Consultar listado de piezas terminadas</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 - Registro de Entradas y Salidas - Mantenimiento</p>
+    </footer>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
